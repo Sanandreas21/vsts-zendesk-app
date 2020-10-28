@@ -100,17 +100,10 @@
                 "type": "Type",
                 "summary": "Summary",
                 "description": "Description",
-                "clientDescription": "Client Description",
-                "repoSteps": "Repo Steps",
                 "assignee": "Assignee",
                 "requester": "Requester",
                 "attachments": "Attachments",
-                "severity": "Severity",
-                "priority": "Priority",
-                "category": "Category",
-                "region": "Region",
-                "errorCodes": "Error Codes",
-                "tenantID": "Tenant ID"
+                "severity": "Severity"
             },
             "copyDescription": "Copy the ticket's description",
             "copyTemplate": "Use configured template"
