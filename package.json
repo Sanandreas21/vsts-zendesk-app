@@ -4,7 +4,7 @@
     "email": "vsointegration@microsoft.com"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/vsts-zendesk-app/issues"
+    "url": "https://github.com/Microsoft/vsts-zendesk-app"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -26,19 +26,19 @@
     "html-webpack-plugin": "^2.30.1",
     "jasmine-core": "^2.7.0",
     "json-loader": "^0.5.7",
-    "karma": "^1.7.0",
+    "karma": "^1.7.1",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.4",
     "karma-webpack": "^2.0.4",
     "loader-utils": "^1.1.0",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.14.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.1"
   },
-  "homepage": "https://github.com/Microsoft/vsts-zendesk-app",
+  "homepage": "https://github.com/Microsoft/vsts-zendesk-app/issues",
   "keywords": [
     "microsoft",
     "tfs",
@@ -48,11 +48,11 @@
   "name": "vsts-zendesk-app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vsts-zendesk-app"
+    "url": "https://github.com/Microsoft/vsts-zendesk-app/issues"
   },
   "scripts": {
     "build": "webpack -p",
     "watch": "webpack --watch"
   },
-  "version": "0.6.2"
+  "version": "0.6.3"
 }

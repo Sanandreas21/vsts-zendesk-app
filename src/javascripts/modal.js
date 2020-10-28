@@ -114,7 +114,7 @@ const getVm = function(path) {
 
 var INSTALLATION_ID = 0,
     //For dev purposes, when using Zat, set this to your current installation id
-    VSO_URL_FORMAT = "https://%@.visualstudio.com/DefaultCollection",
+    VSO_URL_FORMAT = "https://dev.azure.com/%@",
     VSO_API_DEFAULT_VERSION = "1.0",
     VSO_API_RESOURCE_VERSION = {},
     TAG_PREFIX = "vso_wi_",
@@ -134,7 +134,7 @@ var INSTALLATION_ID = 0,
     }),
     VSO_ZENDESK_LINK_TO_TICKET_PREFIX = "ZendeskLinkTo_Ticket_",
     VSO_ZENDESK_LINK_TO_TICKET_ATTACHMENT_PREFIX = "ZendeskLinkTo_Attachment_Ticket_",
-    VSO_WI_TYPES_WHITE_LISTS = ["Bug", "Product Backlog Item", "User Story", "Requirement", "Issue"],
+    VSO_WI_TYPES_WHITE_LISTS = ["Issue Report", "Product Backlog Item", "Task Non Programming"],
     VSO_PROJECTS_PAGE_SIZE = 100; //#endregion
 
 // Create a new ZAFClient
